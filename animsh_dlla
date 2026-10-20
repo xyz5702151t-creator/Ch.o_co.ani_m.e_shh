@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+
+content="width=device-width,
+
+initial-scale=1.0">
+
+<title>A-N-I_ M-E-S-H</title>
+
+<style>
+
+* {
+
+box-sizing: border-box;
+
+}
+
+body {
+
+}
+
+margin: 0;
+
+padding: 20px;
+
+min-height: 100vh;
+
+font-family: Arial, sans-serif;
+
+background: #f4f4f4;
+
+display: flex;
+
+justify-content: center;
+
+align-items: center;
+
+.card {
+
+width: 100%;
+
+max-width: 520px;
+
+background: white;
+
+padding: 28px;
+
+border-radius: 18px;
+
+box-shadow: 0 8px 30px
+
+rgba(0,0,0,.12);
+
+}
+
+h1 {
+
+font-size: 26px;
+
+margin-top: 0;
+
+}
+p {
+
+line-height: 1.5;
+
+}
+
+.caution {
+
+}
+
+font-weight: bold;
+
+margin: 18px 0;
+
+.options label {
+
+}
+
+display: block;
+
+padding: 10px 0;
+
+cursor: pointer;
+
+input[type="text"] {
+
+}
+
+width: 100%;
+
+padding: 13px;
+
+margin-top: 8px;
+
+border: 1px solid #bbb;
+
+border-radius: 10px;
+
+font-size: 16px;
+
+button {
+
+width: 100%;
+
+margin-top: 18px;
+
+padding: 13px;
+
+border: 0;
+
+border-radius: 10px;
+
+font-size: 16px;
+
+cursor: pointer;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<main class="card">
+
+<h1>A-N-I M-E-S-H</h1>
+
+<p>
+
+Choose what you want to do with A-N-I_
+
+M-E-S-H.
+
+</p>
+
+
+
+<p><strong>Choose an option:</strong></
+
+p>
+
+<div class="options">
+
+<label>
+
+<input type="radio" name="option"
+
+value="pen">
+
+Option A Give him your pen
+
+</label>
+
+<label>
+
+<input type="radio" name="option"
+
+value="friends-pen">
+
+Option B Give him your friend's pen
+
+</label>
+
+<label>
+
+<input type="radio" name="option"
+
+value="invite-home">
+
+Option C Invite him home
+
+personally
+
+</label>
+
+<label>
+
+<input type="radio" name="option"
+
+value="surprise">
+
+Option D Choose a surprise option
+
+</label>
+
+</div>
+
+<label for="uid">
+<strong>Enter your UID:</strong>
+
+</label>
+
+<input
+
+>
+
+id="uid"
+
+type="text"
+
+placeholder="Enter when u want to give him here"
+
+autocomplete="off"
+
+<button type="button">
+
+To get your work completed, press here
+
+</button>
+
+<p>
+
+<strong>Naughty Boy will complete your
+
+work.</strong>
+
+</p>
+
+</main>
+
+</body>
+
+</html>
