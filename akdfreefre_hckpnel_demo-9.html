@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>akdfreefre.hckpnel</title>
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  .card {
+    width: 100%;
+    max-width: 520px;
+    background: white;
+    padding: 28px;
+    border-radius: 18px;
+    box-shadow: 0 8px 30px rgba(0,0,0,.12);
+  }
+  h1 { margin-top: 0; font-size: 26px; }
+  p { line-height: 1.5; }
+  .caution {
+    font-weight: bold;
+    margin: 18px 0;
+  }
+  .options label {
+    display: block;
+    padding: 10px 0;
+    cursor: pointer;
+  }
+  input[type="text"] {
+    width: 100%;
+    padding: 13px;
+    margin-top: 8px;
+    border: 1px solid #bbb;
+    border-radius: 10px;
+    font-size: 16px;
+  }
+  button {
+    width: 100%;
+    margin-top: 18px;
+    padding: 13px;
+    border: 0;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  #message {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 16px;
+  }
+  .note {
+    font-size: 12px;
+    margin-top: 16px;
+    opacity: .7;
+  }
+</style>
+</head>
+<body>
+<div class="card">
+  <h1>akdfreefre.hckpnel</h1>
+
+  <p>Welcome to akdfreefre.hckpnel, select what hck you want.</p>
+
+  <p class="caution">⚠️ CAUTION: YOUR ID CAN GET BANNED. DO IT AT YOUR OWN RISK.</p>
+
+  <p><strong>Select an option:</strong></p>
+  <div class="options">
+    <label><input type="radio" name="option" value="Only head"> Only head</label>
+    <label><input type="radio" name="option" value="Movement"> Movement</label>
+    <label><input type="radio" name="option" value="Flying"> Flying</label>
+    <label><input type="radio" name="option" value="Location"> Location</label>
+  </div>
+
+  <label for="uid"><strong>Enter your working day:</strong></label>
+  <input id="uid" type="text" placeholder="Enter your working day here" autocomplete="off">
+
+  <button onclick="submitPrank()">Submit</button>
+
+  <div id="message"></div>
+
+  <p id="finalMessage" style="display:none;">Your work will be done under 30 minutes.<br>Thanks for visiting.</p>
+
+  <p class="note">Demo/prank page: the UID is not stored or sent anywhere. It exists only in this page while it is open.</p>
+</div>
+
+
+</body>
+</html>
+
+<script>
+function submitPrank() {
+  document.getElementById("finalMessage").style.display = "block";
+}
+</script>
